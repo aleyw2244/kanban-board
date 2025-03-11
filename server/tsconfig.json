@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      /* Modules */
+      "rootDir": "src",
+      "outDir": "dist",
+      "module": "ES2022",
+      "moduleResolution": "node",
+      "esModuleInterop": true
+    },
+    "include": ["src"],
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+}
