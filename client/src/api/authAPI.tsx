@@ -1,9 +1,9 @@
 import { UserLogin } from "../interfaces/UserLogin";
-const apiURL = 'http://localhost:3001';
+
 const login = async (userInfo: UserLogin) => {
   // TODO: make a POST request to the login route
   try {
-    const response = await fetch(`${apiURL}/auth/login`, {
+    const response = await fetch(`/auth/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
